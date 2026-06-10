@@ -5,7 +5,7 @@ import { addToast } from "@heroui/toast";
 
 import { title } from "@/components/primitives";
 
-export default function BlogPage() {
+export default function ReviewsPage() {
   const Post = ({
     title,
     date,
@@ -22,9 +22,9 @@ export default function BlogPage() {
         className="p-4 w-full"
         onPress={() => {
           addToast({
-            title: "Hey!",
+            title: "Sources-",
             description:
-              "This doesn't link anywhere. But you can make it so it does!",
+              "Review 1 was from Harry Nguyen; Review 2 was from Em.",
             color: "danger",
           });
         }}
@@ -44,17 +44,17 @@ export default function BlogPage() {
 
   return (
     <div>
-      <h1 className={title()}>Blog</h1>
+      <h1 className={title()}>2 reviews about this hike &#8595;</h1>
       <div className="mt-20 flex flex-col gap-6">
         <Post
-          date={new Date("2025-02-26")}
-          description="An example post. You could do some cool stuff with this. This is a good example of using custom components within the same page."
-          title="Example 1"
+          date={new Date("2026-06-8")}
+          description="I can see why this trail is so popular! Absolutely stunning trail, but be prepared for the conditions right now! There is thick, slushy snow for the most part, making the trek a lot more challenging than a standard summer hike. I came equipped with microspikes and gaiters, and they definitely came in handy. "
+          title="Review 1"
         />
         <Post
-          date={new Date("2025-01-15")}
-          description="Time machine sales are down! Demand decreases as AI take over."
-          title="Time Machine Sales Statistics"
+          date={new Date("2026-06-7")}
+          description="Very early when I started, had a lucky break in the clouds for Rainier views at the top around 11ish, then 20 minutes later it was full white out and sounds of avalanches in the distance. Glad I did it, go but be careful and turn back when you need to! And being sunglasses, hat and sunscreen too!"
+          title="Review 2"
         />
       </div>
     </div>

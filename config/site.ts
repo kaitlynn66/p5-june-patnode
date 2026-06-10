@@ -10,19 +10,19 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Location",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "About",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "Reviews",
       href: "/blog",
     },
     {
-      label: "About",
+      label: "Photos",
       href: "/about",
     },
   ],
@@ -32,19 +32,19 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Location",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "About",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "Reviews",
       href: "/blog",
     },
     {
-      label: "About",
+      label: "Photos",
       href: "/about",
     },
   ],
